@@ -23,4 +23,5 @@ end
 
 def printer(name)
   badge_maker(name)
+  assign_rooms(name)
 end 
