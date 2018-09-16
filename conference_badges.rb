@@ -24,6 +24,7 @@ end
 def printer(array)
   i = 0
   list_of_badges = batch_badge_creator(array)
-  while i < array.length
-    batch_badge_creator
+  while i < list_of_badges.length
+    list_of_badges[i]
+    i += 1 
 end 
