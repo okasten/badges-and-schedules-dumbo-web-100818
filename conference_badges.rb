@@ -8,4 +8,5 @@ def batch_badge_creator(array)
   array.each do |name|
     attendees << badge_maker(name)
   end 
+  return attendees 
 end 
